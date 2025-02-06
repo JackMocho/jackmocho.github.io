@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Kipyegon Mocho - GIS Specialist</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* Section Common Styles */
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category h3 {
+            color: #3498db;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Timeline Layout */
+        .timeline-item {
+            display: flex;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-date {
+            flex: 0 0 200px;
+            color: #7f8c8d;
+        }
+
+        .timeline-content {
+            flex: 1;
+            padding-left: 2rem;
+            border-left: 2px solid #3498db;
+        }
+
+        .timeline-content h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content h4 {
+            color: #3498db;
+            margin-bottom: 0.8rem;
+        }
+
+        .timeline-content ul {
+            padding-left: 1.5rem;
+        }
+
+        .timeline-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Contact Section */
+        .contact-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .timeline-item {
+                flex-direction: column;
+            }
+            
+            .timeline-date {
+                margin-bottom: 0.5rem;
+            }
+            
+            .timeline-content {
+                padding-left: 0;
+                border-left: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Jackson Kipyegon Mocho</h1>
+            <div class="contact-info">
+                <p>P.O. Box 154- 20210, Litein - Kenya</p>
+                <p>Tel: +254 745420900 | Email: mochokipyegon8@gmail.com</p>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p>Geospatial scientist with extensive experience in geospatial data analysis, remote sensing, and web-mapping. Proficient in GIS software (ArcGIS, QGIS) with expertise in GIS web design, data analytics, visualization, and spatial modeling. Passionate about using geospatial technologies to promote sustainable development.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>GIS Software</h3>
+                    <ul>
+                        <li>ArcGIS Desktop (ArcMap, ArcGIS Pro)</li>
+                        <li>QGIS</li>
+                        <li>Google Earth Engine</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS & Tailwind</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Mapping</h3>
+                    <ul>
+                        <li>Leaflet</li>
+                        <li>Mapbox GL JS</li>
+                        <li>ArcGIS API for JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Analysis</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>R</li>
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section">
+            <h2>Education</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">2018 - 2021</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Science in Geospatial Information Science & Remote Sensisng</h3>
+                    <h4>Dedan Kimathi University of Technology</h4>
+                    <ul>
+                        <li>Second Class Honors</li>
+                        <li>Specialization in GIS analysis and Web development.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2014 - 2017</div>
+                <div class="timeline-content">
+                    <h3>Kenya Certificate of Secondary Education</h3>
+                    <h4>Kabiang'a High School</h4>
+                    <ul>
+                        <li>Mean Grade: B (Plain)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section">
+            <h2>Professional Experience</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Land Surveyor & GIS Analyst Attaché</h3>
+                    <h4>Geo-digital Boundary Surveys</h4>
+                    <ul>
+                        <li>Integrated field-collected GPS data with GIS systems</li>
+                        <li>Performed spatial analysis and map production</li>
+                        <li>Converted CAD data to GIS formats</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <div class="timeline-content">
+                    <h3>HFCM Chairperson</h3>
+                    <h4>County Government of Bomet - Health Department</h4>
+                    <ul>
+                        <li>Manage health facility resources and budgets</li>
+                        <li>Supervise facility staff and operations</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Add other experiences following same pattern -->
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <h2>Contact Information</h2>
+            <div class="contact-box">
+                <div>
+                    <h3>Location</h3>
+                    <p>Bomet, Kenya</p>
+                </div>
+                <div>
+                    <h3>Contact Details</h3>
+                    <p>+254 745420900<br>mochokipyegon8@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
